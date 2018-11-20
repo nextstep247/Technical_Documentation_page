@@ -1,0 +1,162 @@
+<!--Credit goes to:   Naresh
+    About         :-  Technical Documentation page
+
+    XMP           :-  HTML Example Element (used to define html elements as a test)
+ -->
+
+<!DOCKTYPE HTML>
+
+	<HTML>
+		<HEAD>
+
+				<TITLE>TECHNICAL DOCUMENTATION PAGE</TITLE>
+				<link rel="stylesheet" type="text/css" href="style.css">
+				<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+
+		</HEAD>
+
+	<body>
+		<nav class="navbar">
+		<header>HTML DOCUMENTATION</header>
+	
+		    <a href="#INTRODUCTION" class="nav-link">INTRODUCTION</a>
+			<a href="#What are HTML Tags and Attributes?" class="">What are HTML Tags and Attributes? </a>
+		    <a href="#HTML Editors">HTML Editors </a>
+		    <a href="#Creating Your First HTML Webpage">Creating Your First HTML Webpage </a>
+		<a href="#How To Add Links In HTML">How To Add Links In HTML </a>
+		<a href="#How To Add Images In HTML To Your Website" class="nav-link">How To Add Images In HTML To Your Website</a>
+		
+	</ul>
+</nav>
+
+       <main class="main-doc">
+
+		<section class="main-section" id="INTRODUCTION">
+			<H2>INTRODUCTION</H2>
+			<P>HTML was first created by Tim Berners-Lee in 1990. It stands for Hyper Text Markup Language. Hypertext means that the document contains links that allow the reader to jump to other places in the document or to another document altogether. The latest version is known as HTML5.
+
+A Markup Language is a way that computers speak to each other to control how text is processed and presented.  To do this HTML uses two things: tags  and attributes.</P>
+
+		</SECTION>
+
+		<SECTION  class="main-section" id="What are HTML Tags and Attributes?">    <!--This id attribute is mandatory to create link through the nav bar -->
+			<H2>What are HTML Tags and Attributes?</H2>
+			<div>Tags are used to mark up the start of an HTML element and they are usually enclosed in angle brackets. An example of a tag is: &lt h1 &gt.
+
+			Most tags must be opened &lt h1 &gt  and closed &lt /h1 &gt in order to function.</div>
+<div>Attributes contain additional pieces of information. Attributes take the form of an opening tag and additional info is placed inside.
+
+An example of an attribute is:
+
+&lt img src="mydog.gif" alt="A photo of my dog." &gt.</div>
+		</SECTION>
+
+		<SECTION class="main-section" id="HTML Editors">
+			<H2>HTML Editors</H2>
+			<div>Now that we’ve gotten the basic theory out of the way. It’s time to learn how to build our first website.
+
+First off, we must ensure that we have the right tools. Most importantly, we need an HTML editor. There are many choices on the market such as the extremely popular Notepad++.
+
+However, for this tutorial, we will use the Bluefish Editor as it is free and also offers cross platform support for Windows, Mac, and Linux users.
+
+If you don't want to install any software, but want to preview code instantly — you can use an online HTML editor such as this simple html5 editor.
+
+Do not use Microsoft Word or any other word processor when writing HTML code, only an HTML editor or at the very least, your machine’s built-in notepad, is suitable for the task.
+
+Secondly, ensure that you’ve installed a number of different browsers such as Chrome and Firefox in order to preview your upcoming creation.</div>
+		</SECTION>
+
+<SECTION class="main-section" id="Creating Your First HTML Webpage">
+			<H2>Creating Your First HTML Webpage</H2>
+			First off, you need to open your HTML editor, where you will find a clean white page on which to write your code. From there you need to layout your page with the following tags. These tags should be placed underneath each other at the top of every HTML page that you create.
+
+&lt!DOCTYPE html&gt
+This tag specifies the language you will write on the page. In this case, the language is HTML 5.
+
+&ltHTML&gt
+This tag signals that from here on we are going to write in HTML code.
+
+Underneath the HTML we will open two further elements:
+&ltHead&gt
+and
+&ltBody&gt
+
+The content placed inside the &ltHead&gt tag is mostly designed to be read by search engines and other robots and is not for human consumption. This tag identifies your page to other computers and will decide where your content will be ranked in popular search engines including Google.
+
+Inside the &ltHead&gt tag we will open two further elements
+
+&ltTitle&gt This is where we insert the page name as it will appear at the top of the browser window.
+
+	Let’s try it out:
+
+Write
+&lt title &gt My First Webpage &lt/title&gt on a blank line in your HTML editor.
+
+Next, we will add the metadata, which is the information that search engines read about your site.
+
+This should follow the following format:
+
+&lt meta charset="UTF-8" &gt
+
+&lt meta name="description" content="This field contains information about your page. It is usually around two sentences long.">.
+
+We can also create meta name attributes for “keywords”, “author” and other terms that you might want search engine bots to read.
+		</SECTION>
+
+
+<SECTION class="main-section" id="How To Add Links In HTML">
+			<H2>How To Add Links In HTML</H2>
+			As you may have noticed, the internet is made up of lots of links. Almost everything you click on while surfing the web is a link takes you to another page within the website you are visiting or to an external site.
+
+Links are included in an attribute opened by the &lta&gt tag. This element is the first that we’ve met which uses an attribute and so it looks different to previously mentioned tags.
+
+The &lta&gt (or anchor) opening tag is written in the format:
+
+&lta href=“https://blogging.com/how-to-start-a-blog/”>Your Link Text Here &lt/a&gt
+
+The first part of the attribute points to the page that will open once the link is clicked. Meanwhile, the second part of the attribute contains the text which will be displayed to a visitor in order to entice them to click on that link.
+
+If you are building your own website then you will most likely host all of your pages on professional web hosting. In this case, internal links on your website will &lta href=“mylinkedpage.html”>Link Title Here &lt/a&gt.
+
+Let’s try it out: Make a duplicate of the code from your current index.html page. Copy / paste it into a new window in your HTML editor. Save this new page as “page2.html” and ensure that it is saved in the same folder as your index.html page.
+
+On page2.html add the following code:
+
+&lta href=“http://www.google.com”>Google &lt/a&gt
+
+This will create a link to Google on page 2.
+
+Hit save and return to your index.html page.
+		</SECTION>
+
+		
+<section class="main-section" id="How To Add Images In HTML To Your Website">
+
+			<H2>How To Add Images In HTML To Your Website</H2>
+			In today’s modern digital world, images are everything. The &lt img &gt  tag has everything you need to display images on your site. Much like the &lt a &gt anchor element, &lt img &gt also contains an attribute. The attribute features information for your computer regarding the source, height, width and alt text of the image.
+
+You can also define borders and other styles around the image using the class attribute. However, we shall cover this in a later tutorial.
+
+The file types generally used for image files online are: .jpg, .png and .gif.
+
+Alt text is important to ensure that your site is ranked correctly on search sites and also for visually impaired visitors to your site.
+
+The &lt img alt> attribute appears as follows:
+
+&lt img src=“yourimage.jpg" alt= “Describe the image” height="X" width="X">
+
+Let’s try it out: Save an image (.jpg, .png, .gif format) of your choice in the same folder where you’ve saved index.html and page2.html. Call this image “testpic.jpg”.
+
+On a new line In your HTML editor enter the following code:
+
+&lt img src=“testpic.jpg alt= “This is a test image” height="42" width="42">
+
+Hit save and preview the index.html page in your browser.
+
+		</SECTION>
+
+</main>
+
+	</body>
+</HTML>

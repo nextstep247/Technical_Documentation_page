@@ -1,0 +1,98 @@
+html,body{
+	margin:0;   /*margin and padding value is used to remove extra spaces of border side*/
+	padding:0:;
+
+	font-family: 'Roboto', sans-serif;
+    height: 100%;
+  	background-color: #5a4f70;
+	color: #eeeeee;
+}
+
+
+
+.navbar{
+	width: 20%;
+    height: 100%;
+    position: fixed;
+	text-align: center;
+	background-color: rgba(255, 255,255,0.3);
+	border-top: 4px solid rgba(255,255,255,0.5);
+	border-right: 4px solid rgba(255,255,255,0.5);
+    overflow: auto;
+	
+
+}
+
+
+.navbar header{
+
+padding: 15px o;
+font-size: 27px;
+border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+
+
+.navbar a{
+	padding: 15px 0;
+	display: block;  /* divide inline element one after one like list-items*/
+    text-decoration: none;/*used to remove underline*/
+    font-size: 20px;
+    color: #eeeeee;
+    border-bottom: 2px solid rgba(255,255,255,0,5);
+
+}
+
+.navbar a:hover{
+	background-color:  rgba(255,255,255,.3);
+}
+
+.main-doc{
+	margin:auto;
+	padding-top: 25px;
+	padding-left: 33vw;
+	padding-right: 2vw;
+	max-width: 65vw;
+
+}
+
+.main-section{
+
+margin-bottom: 70px;
+}
+
+.main-section h2{
+	margin-bottom: 20px;
+	font-size: 29px;
+	letter-spacing: 1px;
+}
+
+.main-section p{
+	margin-bottom: 17px;
+	font-size: 17px;
+	line-height: 1.4;
+
+}
+@media only screen and (min-width: 900px) {
+	#navbar {
+		max-width: 29vw;
+		max-height: 100vh;
+		text-align: right;
+		position: fixed;
+		top: 0;
+		left: 0;
+	}
+}
+@media only screen and (min-width: 900px) {
+	#navbar {
+		max-width: 29vw;
+		max-height: 100vh;
+		text-align: right;
+		position: fixed;
+		top: 0;
+		left: 0;
+	}
+
+#navbar header, #navbar a{
+	padding-right: 10px;
+}}
